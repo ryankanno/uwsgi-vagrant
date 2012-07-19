@@ -22,7 +22,7 @@ class users {
         gid => "app",
         groups => ["adm", "root"],
         managehome => true,
-        password => '',
+        password => '$6$P.kY.bfe$zj17bXBMXsnCR5MC8tHtxTR6VDptPb4qKp/4b9NU5c2ulL810iCbLPUzJ4CUUPP0YcoTcoIQnUc5D8A8J3y9d1',
         shell => "/bin/bash",
         require => [Group["app"], Package["libshadow"]]
     }
